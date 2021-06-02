@@ -1,0 +1,140 @@
+,ABF File,Data Type,Exp. Date,Case #,Cell #,Cell Layer,Stim Type,Threshold,Gain Value,ZD,Hold,,Gain,Offset,Response Channel,Command Channel,RMP,Stimulus type
+6,18320001,Human,March_20_2018,First,C1,L23,Firing,n.a,n.a,n.a,n.a,,1,-20,Iclamp(mV),Current_in(pA),-70,Ramp
+9,18320005,Human,March_20_2018,First,C1,L23,Firing,n.a,n.a,n.a,n.a,,1,-20,Iclamp(mV),Current_in(pA),-70.5,Long_Square
+13,18320015,Human,March_20_2018,First,C2,L23,Firing,n.a,n.a,n.a,n.a,,1,-20,Iclamp(mV),Current_in(pA),-68.1,Long_Square
+17,18320019,Human,March_20_2018,First,C3,L23,Firing,n.a,n.a,n.a,n.a,,1,-27,Iclamp(mV),Current_in(pA),-71.3,Ramp
+19,18320021,Human,March_20_2018,First,C3,L23,Firing,n.a,n.a,n.a,n.a,,1,-27,Iclamp(mV),Current_in(pA),-71.3,Long_Square
+21,18320000,Human,March_20_2018,Second,C1,L23,Firing,n.a,n.a,n.a,n.a,,1,-16.4,Iclamp(mV),Current_in(pA),-61.4,Ramp
+29,18320012,Human,March_20_2018,Second,C2,L23,Firing,n.a,n.a,n.a,n.a,,1,-17.2,Iclamp(mV),Current_in(pA),-65.2,Ramp
+30,18320014,Human,March_20_2018,Second,C2,L23,Firing,n.a,n.a,n.a,n.a,,1,-17.2,Iclamp(mV),Current_in(pA),-65.2,Long_Square
+32,18320016,Human,March_20_2018,Second,C3,L23,Firing,n.a,n.a,n.a,n.a,,1,-21.2,Iclamp(mV),Current_in(pA),-66.2,Ramp
+33,18320019,Human,March_20_2018,Second,C3,L23,Firing,n.a,n.a,n.a,n.a,,1,-18.2,Iclamp(mV),Current_in(pA),-66.2,Long_Square
+35,18320024,Human,March_20_2018,Second,C4,L23,Firing,n.a,n.a,n.a,n.a,,1,-17.6,Iclamp(mV),Current_in(pA),-63.6,Ramp
+40,18320030,Human,March_20_2018,Second,C5,L23,Firing,n.a,n.a,n.a,n.a,,1,-17.4,Iclamp(mV),Current_in(pA),-62.4,Ramp
+41,18320031,Human,March_20_2018,Second,C5,L23,Firing,n.a,n.a,n.a,n.a,,1,-14.4,Iclamp(mV),Current_in(pA),-62.4,Long_Square
+60,18426000,Human,April_26_2018,n.a,C1,L23,Firing,n.a,n.a,n.a,n.a,,1,-14.7,Iclamp(mV),Current_in(pA),-64.7,Ramp
+63,18426009,Human,April_26_2018,n.a,C1,L23,Firing,n.a,n.a,n.a,n.a,,1,-13.3,Iclamp(mV),Current_in(pA),-65.3,Ramp
+64,18426010,Human,April_26_2018,n.a,C1,L23,Firing,n.a,n.a,n.a,n.a,,1,-15.3,Iclamp(mV),Current_in(pA),-65.3,Long_Square
+70,18426016,Human,April_26_2018,n.a,C2,L23,Firing,n.a,n.a,n.a,n.a,,1,-14.8,Iclamp(mV),Current_in(pA),-64.5,Ramp
+71,18426017,Human,April_26_2018,n.a,C2,L23,Firing,n.a,n.a,n.a,n.a,,1,-14.5,Iclamp(mV),Current_in(pA),-64.5,Long_Square
+76,18201004,Human,Feb_01_2018,n.a,C1,L5,Firing,n.a,n.a,n.a,n.a,,1,-20.1,Iclamp(mV),Current_in(pA),-60.1,Long_Square
+77,18201005,Human,Feb_01_2018,n.a,C1,L5,Firing,n.a,n.a,n.a,n.a,,1,-20.1,Iclamp(mV),Current_in(pA),-60.1,Ramp
+80,18201011,Human,Feb_01_2018,n.a,C3,L5,Firing,n.a,n.a,n.a,n.a,,1,-16.5,Iclamp(mV),Current_in(pA),-66.5,Long_Square
+92,18201028,Human,Feb_01_2018,n.a,C5,L5,Firing,n.a,n.a,n.a,n.a,,1,-21.9,Iclamp(mV),Current_in(pA),-66.9,Long_Square
+93,18201029,Human,Feb_01_2018,n.a,C5,L5,Firing,n.a,n.a,n.a,n.a,,1,-21.9,Iclamp(mV),Current_in(pA),-66.9,Ramp
+98,18220002,Human,Feb_20_2018,n.a,C2,L23,Firing,n.a,n.a,n.a,n.a,,1,-13.2,Iclamp(mV),Current_in(pA),-63.2,Ramp
+101,18220007,Human,Feb_20_2018,n.a,C3,L23,Firing,n.a,n.a,n.a,n.a,,1,-22.5,Iclamp(mV),Current_in(pA),-63.2,Ramp
+102,18220008,Human,Feb_20_2018,n.a,C3,L23,Firing,n.a,n.a,n.a,n.a,,1,-22.5,Iclamp(mV),Current_in(pA),-63.2,Long_Square
+108,18220018,Human,Feb_20_2018,n.a,C4,L23,Firing,n.a,n.a,n.a,n.a,,1,-20,Iclamp(mV),Current_in(pA),-64.9,Ramp
+109,18220019,Human,Feb_20_2018,n.a,C4,L23,Firing,n.a,n.a,n.a,n.a,,1,-20,Iclamp(mV),Current_in(pA),-64.9,Long_Square
+127,18129004,Human,Jan_29_2018,n.a,C2,L5,Firing,n.a,n.a,n.a,n.a,,1,-17.2,Iclamp(mV),Current_in(pA),-71.2,Long_Square
+129,18129009,Human,Jan_29_2018,n.a,C3,L5,Firing,n.a,n.a,n.a,n.a,,1,-25.4,Iclamp(mV),Current_in(pA),-69.4,Long_Square
+136,18329050,Human,March_29_2018,n.a,C10,L23,Firing,n.a,n.a,n.a,n.a,,1,-24.7,Iclamp(mV),Current_in(pA),-69.7,Ramp
+137,18329051,Human,March_29_2018,n.a,C10,L23,Firing,n.a,n.a,n.a,n.a,,1,-24.7,Iclamp(mV),Current_in(pA),-69.7,Long_Square
+139,18329062,Human,March_29_2018,n.a,C13,L23,Firing,n.a,n.a,n.a,n.a,,1,-16.2,Iclamp(mV),Current_in(pA),-61.2,Long_Square
+140,18329013,Human,March_29_2018,n.a,C3,L23,Firing,n.a,n.a,n.a,n.a,,1,-15,Iclamp(mV),Current_in(pA),-61.5,Ramp
+141,18329014,Human,March_29_2018,n.a,C3,L23,Firing,n.a,n.a,n.a,n.a,,1,-15,Iclamp(mV),Current_in(pA),-61.5,Long_Square
+149,18329031,Human,March_29_2018,n.a,C8,L23-Int,Firing,n.a,n.a,n.a,n.a,,1,-19,Iclamp(mV),Current_in(pA),-59.3,Ramp
+150,18329033,Human,March_29_2018,n.a,C9.1,L23,Firing,n.a,n.a,n.a,n.a,,1,-19,Iclamp(mV),Current_in(pA),-60.7,Ramp
+153,18329043,Human,March_29_2018,n.a,C9.2,L23,Firing,n.a,n.a,n.a,n.a,,1,-19,Iclamp(mV),Current_in(pA),-69.7,Ramp
+154,18329044,Human,March_29_2018,n.a,C9.2,L23-Int,Firing,n.a,n.a,n.a,n.a,,1,-19,Iclamp(mV),Current_in(pA),-69.7,Long_Square
+158,18o22001,Human,October_ 22_2018,n.a,C1,L23,Firing,n.a,n.a,n.a,n.a,,20,-26,Iclamp(mV),Current_in(pA),-74.5,Long_Square
+163,18o22010,Human,October_ 22_2018,n.a,C2,L23,Firing,n.a,n.a,n.a,n.a,,20,-28,Iclamp(mV),Current_in(pA),-71.6,Long_Square
+168,18o22020,Human,October_ 22_2018,n.a,C3,L23,Firing,n.a,n.a,n.a,n.a,,20,-20,Iclamp(mV),Current_in(pA),-68.4,Long_Square
+1,18320006,Human,March_20_2018,First,C1,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+2,18320007,Human,March_20_2018,First,C1,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+10,18320010,Human,March_20_2018,First,C1,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+14,18320016,Human,March_20_2018,First,C2,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+15,18320017,Human,March_20_2018,First,C2,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+16,18320018,Human,March_20_2018,First,C2,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+20,18320022,Human,March_20_2018,First,C3,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+24,18320006,Human,March_20_2018,Second,C1,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+25,18320007,Human,March_20_2018,Second,C1,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+26,18320008,Human,March_20_2018,Second,C1,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+27,18320009,Human,March_20_2018,Second,C1,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+28,18320011,Human,March_20_2018,Second,C1,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+31,18320015,Human,March_20_2018,Second,C2,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+34,18320020,Human,March_20_2018,Second,C3,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+37,18320028,Human,March_20_2018,Second,C4,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+38,18320029,Human,March_20_2018,Second,C4,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+39,18320027,Human,March_20_2018,Second,C4,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+47,18417017,Human,April_17_2018,n.a,C2,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+48,18417018,Human,April_17_2018,n.a,C2,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+49,18417019,Human,April_17_2018,n.a,C2,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+52,18417025,Human,April_17_2018,n.a,C3,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+53,18417026,Human,April_17_2018,n.a,C3,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+54,18417030,Human,April_17_2018,n.a,C3,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+55,18417031,Human,April_17_2018,n.a,C3,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+58,18417043,Human,April_17_2018,n.a,C5,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+59,18417046,Human,April_17_2018,n.a,C5,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+65,18426011,Human,April_26_2018,n.a,C1,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+66,18426013,Human,April_26_2018,n.a,C1,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+67,18426014,Human,April_26_2018,n.a,C1,L23,Gain,n.a,50,n.a,n.a,,,,,,,
+72,18426007,Human,April_26_2018,n.a,C2,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+73,18426018,Human,April_26_2018,n.a,C2,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+74,18426019,Human,April_26_2018,n.a,C2,L23,Gain,n.a,70,n.a,n.a,,,,,,,
+78,18201007,Human,Feb_01_2018,n.a,C1,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+79,18201008,Human,Feb_01_2018,n.a,C1,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+82,18201012,Human,Feb_01_2018,n.a,C3,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+83,18201013,Human,Feb_01_2018,n.a,C3,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+84,18201017,Human,Feb_01_2018,n.a,C3,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+85,18201018,Human,Feb_01_2018,n.a,C3,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+86,18201019,Human,Feb_01_2018,n.a,C3,L5,Gain,n.a,40,n.a,n.a,,,,,,,
+87,18201020,Human,Feb_01_2018,n.a,C3,L5,Gain,n.a,40,n.a,n.a,,,,,,,
+88,18201021,Human,Feb_01_2018,n.a,C3,L5,Gain,n.a,40,n.a,n.a,,,,,,,
+90,18201025,Human,Feb_01_2018,n.a,C4,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+91,18201028,Human,Feb_01_2018,n.a,C4,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+94,18201030,Human,Feb_01_2018,n.a,C5,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+95,18201031,Human,Feb_01_2018,n.a,C5,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+96,18201032,Human,Feb_01_2018,n.a,C5,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+97,18201033,Human,Feb_01_2018,n.a,C5,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+100,18220005,Human,Feb_20_2018,n.a,C2,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+103,18220009,Human,Feb_20_2018,n.a,C3,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+104,18220010,Human,Feb_20_2018,n.a,C3,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+105,18220011,Human,Feb_20_2018,n.a,C3,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+106,18220014,Human,Feb_20_2018,n.a,C3,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+107,18220015,Human,Feb_20_2018,n.a,C3,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+110,18220020,Human,Feb_20_2018,n.a,C4,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+112,18125012,Human,Jan_25_2018,n.a,C3,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+113,18125013,Human,Jan_25_2018,n.a,C3,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+114,18125005,Human,Jan_25_2018,n.a,C3,L5,Gain,n.a,40,n.a,n.a,,,,,,,
+115,18125006,Human,Jan_25_2018,n.a,C3,L5,Gain,n.a,40,n.a,n.a,,,,,,,
+116,18125007,Human,Jan_25_2018,n.a,C3,L5,Gain,n.a,40,n.a,n.a,,,,,,,
+117,18125008,Human,Jan_25_2018,n.a,C3,L5,Gain,n.a,40,n.a,n.a,,,,,,,
+119,18125017,Human,Jan_25_2018,n.a,C4,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+120,18125018,Human,Jan_25_2018,n.a,C4,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+121,18125019,Human,Jan_25_2018,n.a,C4,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+122,18125020,Human,Jan_25_2018,n.a,C4,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+123,18125021,Human,Jan_25_2018,n.a,C4,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+124,18125022,Human,Jan_25_2018,n.a,C4,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+125,18125015,Human,Jan_25_2018,n.a,C4,L5,Gain,n.a,40,n.a,n.a,,,,,,,
+126,18125016,Human,Jan_25_2018,n.a,C4,L5,Gain,n.a,40,n.a,n.a,,,,,,,
+130,18129010,Human,Jan_29_2018,n.a,C3,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+131,18129011,Human,Jan_29_2018,n.a,C3,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+132,18129012,Human,Jan_29_2018,n.a,C3,L5,Gain,n.a,40_Not,n.a,n.a,,,,,,,
+133,18129015,Human,Jan_29_2018,n.a,C4,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+134,18129016,Human,Jan_29_2018,n.a,C4,L5,Gain,n.a,20,n.a,n.a,,,,,,,
+138,18329052,Human,March_29_2018,n.a,C10,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+142,18329015,Human,March_29_2018,n.a,C3,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+145,18329021,Human,March_29_2018,n.a,C4,L23,Gain,n.a,125,n.a,n.a,,,,,,,
+146,18329022,Human,March_29_2018,n.a,C4,L23,Gain,n.a,125,n.a,n.a,,,,,,,
+147,18329018,Human,March_29_2018,n.a,C4,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+148,18329020,Human,March_29_2018,n.a,C4,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+152,18329041,Human,March_29_2018,n.a,C9.1,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+155,18329047,Human,March_29_2018,n.a,C9.2,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+156,18329048,Human,March_29_2018,n.a,C9.2,L23,Gain,n.a,20,n.a,n.a,,,,,,,
+159,18o22004,Human,October_ 22_2018,n.a,C1,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+160,18o22005,Human,October_ 22_2018,n.a,C1,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+161,18o22006,Human,October_ 22_2018,n.a,C1,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+164,18o22011,Human,October_ 22_2018,n.a,C2,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+165,18o22012,Human,October_ 22_2018,n.a,C2,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+166,18o22014,Human,October_ 22_2018,n.a,C2,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+169,18o22021,Human,October_ 22_2018,n.a,C3,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+170,18o22023,Human,October_ 22_2018,n.a,C3,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+171,18o22024,Human,October_ 22_2018,n.a,C3,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+172,18o22025,Human,October_ 22_2018,n.a,C3,L23,Gain,n.a,40,n.a,n.a,,,,,,,
+3,18129005,Human,Jan_29_2018,n.a,C2,L5,n.a,n.a,n.a,n.a,n.a,,,,,,,
+4,18129006,Human,Jan_29_2018,n.a,C2,L5,n.a,n.a,n.a,n.a,n.a,,,,,,,
+5,18129007,Human,Jan_29_2018,n.a,C2,L5,n.a,n.a,n.a,n.a,n.a,,,,,,,
+173,18129015,Human,Jan_29_2018,n.a,C4,L5,n.a,n.a,n.a,n.a,n.a,,,,,,,
+174,18129016,Human,Jan_29_2018,n.a,C4,L5,n.a,n.a,n.a,n.a,n.a,,,,,,,
