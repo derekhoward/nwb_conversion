@@ -1,4 +1,4 @@
-name: nwbephys
+name: nwbephystest
 channels:
   - conda-forge
   - bioconda
@@ -88,7 +88,7 @@ dependencies:
     - click-didyoumean==0.0.3
     - colorama==0.4.4
     - cycler==0.10.0
-    - dandi==0.13.2
+    - dandi==0.18
     - decorator==4.4.2
     - dictdiffer==0.8.1
     - diskcache==5.2.1
