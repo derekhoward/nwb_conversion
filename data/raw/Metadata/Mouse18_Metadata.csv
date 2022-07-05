@@ -1,17 +1,17 @@
-,Cell Name,Data Type,Exp. Date,Cell #,Cell Layer,Stim Type,ZD status,,Gain,Offset,Response Channel,Command Channel,RMP
+,Cell Name,Data Type,Exp. Date,Cell #,Cell Layer,Stim Type,ZD status,stimulus_type,Gain,Offset,Response Channel,Command Channel,RMP
 24,18116450,Mouse,Jan 16_2018,C5,L5,Firing,n.a,,1,17.5,Iclamp (mV) ,  Current_in(pA),-67.5
-103,18130014,Mouse,Jan 30_2018,C5,L5,Firing,n.a,,1,15.2,Iclamp (mV) ,  Current_in(pA),-75.2
-5,2018_02_08_0000,Mouse,Feb 08_2018,C1,L5,Firing pattern,n.a,,1,12,Iclamp (mV) ,  Current_in(pA),-62.6
-6,2018_02_08_0001,Mouse,Feb 08_2018,C1,L5,Firing pattern,n.a,,1,12,Iclamp (mV) ,  Current_in(pA),-62.6
-9,18208013,Mouse,Feb 08_2018,C3,L5,Firing pattern,n.a,,1,27.3,Iclamp (mV) ,  Current_in(pA),-62.3
-10,18208014,Mouse,Feb 08_2018,C3,L5,Firing pattern,n.a,,1,27.3,Iclamp (mV) ,  Current_in(pA),-62.3
-14,18208023,Mouse,Feb 08_2018,C6,L5,Firing pattern,n.a,,1,23.2,Iclamp (mV) ,  Current_in(pA),-63.2
-15,18208024,Mouse,Feb 08_2018,C6,L5,Firing pattern,n.a,,1,23.2,Iclamp (mV) ,  Current_in(pA),-63.2
+103,18130014,Mouse,Jan 30_2018,C5,L5,Firing,n.a,longsquare,1,15.2,Iclamp (mV) ,  Current_in(pA),-75.2
+5,2018_02_08_0000,Mouse,Feb 08_2018,C1,L5,Firing pattern,n.a,ramp,1,12,Iclamp (mV) ,  Current_in(pA),-62.6
+6,2018_02_08_0001,Mouse,Feb 08_2018,C1,L5,Firing pattern,n.a,longsquare,1,12,Iclamp (mV) ,  Current_in(pA),-62.6
+9,18208013,Mouse,Feb 08_2018,C3,L5,Firing pattern,n.a,ramp,1,27.3,Iclamp (mV) ,  Current_in(pA),-62.3
+10,18208014,Mouse,Feb 08_2018,C3,L5,Firing pattern,n.a,longsquare,1,27.3,Iclamp (mV) ,  Current_in(pA),-62.3
+14,18208023,Mouse,Feb 08_2018,C6,L5,Firing pattern,n.a,ramp,1,23.2,Iclamp (mV) ,  Current_in(pA),-63.2
+15,18208024,Mouse,Feb 08_2018,C6,L5,Firing pattern,n.a,longsquare,1,23.2,Iclamp (mV) ,  Current_in(pA),-63.2
 45,18118023,Mouse,Jan 18_2018,C4,L5,Firing pattern,n.a,,20,17.4,Iclamp (mV) ,  Current_in(pA),-59.4
-46,18118024,Mouse,Jan 18_2018,C4,L5,Firing pattern,n.a,,20,15.4,Iclamp (mV) ,  Current_in(pA),-59.4
+46,18118024,Mouse,Jan 18_2018,C4,L5,Firing pattern,n.a,longsquare,20,15.4,Iclamp (mV) ,  Current_in(pA),-59.4
 73,18119012,Mouse,Jan 19_2018,C2,L5,Firing pattern,n.a,,20,16.4,Iclamp (mV) ,  Current_in(pA),-70.4
 81,18119024,Mouse,Jan 19_2018,C3,L5,Firing pattern,n.a,,20,15.7,Iclamp (mV) ,  Current_in(pA),-67.7
-18,18208031,Mouse,Feb 08_2018,C8,L5,Firing pattern,n.a,,1,22.4,Iclamp (mV) ,  Current_in(pA),-62.4
+18,18208031,Mouse,Feb 08_2018,C8,L5,Firing pattern,n.a,ramp,1,22.4,Iclamp (mV) ,  Current_in(pA),-62.4
 7,18208003,Mouse,Feb 08_2018,C1,L5,Gain 20,n.a,,,,,,
 11,18208015,Mouse,Feb 08_2018,C3,L5,Gain 20,n.a,,,,,,
 12,18208016,Mouse,Feb 08_2018,C3,L5,Gain 20,n.a,,,,,,

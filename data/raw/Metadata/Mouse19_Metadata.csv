@@ -1,67 +1,67 @@
-,Cell Name,Data Type,Exp. Date,Cell #,Cell Layer,Stim Type,ZD status,,Gain,Offset,Response Channel,Command Channel,RMP
-4,19o22017,Mouse,Oct 22_2019,C2,L5,Firing,After ZD,,1,0,Vm_Sec (mV),IN 11(pA),-66
-5,19o22001,Mouse,Oct 22_2019,C2,L5,Firing,Before ZD,,1,0,Vm_Sec (mV),IN 11(pA),-64
-19,19o22031,Mouse,Oct 22_2019,C3,L5,Firing,After ZD,,1,0,Vm_Sec (mV),IN 11(pA),-70
-23,19o22037,Mouse,Oct 22_2019,C3,L5,Firing,After ZD,,1,0,Vm_Sec (mV),IN 11(pA),-67
-24,19o22018,Mouse,Oct 22_2019,C3,L5,Firing,Before ZD,,1,0,Vm_Sec (mV),IN 11(pA),-75
-25,19o22019,Mouse,Oct 22_2019,C3,L5,Firing,Before ZD,,1,0,Vm_Sec (mV),IN 11(pA),-75
-26,19o22020,Mouse,Oct 22_2019,C3,L5,Firing,Before ZD,,1,0,Vm_Sec (mV),IN 11(pA),-77
+,Cell Name,Data Type,Exp. Date,Cell #,Cell Layer,Stim Type,ZD status,stimulus_type,Gain,Offset,Response Channel,Command Channel,RMP
+4,19o22017,Mouse,Oct 22_2019,C2,L5,Firing,After ZD,shortsquare,1,0,Vm_Sec (mV),IN 11(pA),-66
+5,19o22001,Mouse,Oct 22_2019,C2,L5,Firing,Before ZD,longsquare,1,0,Vm_Sec (mV),IN 11(pA),-64
+19,19o22031,Mouse,Oct 22_2019,C3,L5,Firing,After ZD,longsquare,1,0,Vm_Sec (mV),IN 11(pA),-70
+23,19o22037,Mouse,Oct 22_2019,C3,L5,Firing,After ZD,ramp,1,0,Vm_Sec (mV),IN 11(pA),-67
+24,19o22018,Mouse,Oct 22_2019,C3,L5,Firing,Before ZD,longsquare,1,0,Vm_Sec (mV),IN 11(pA),-75
+25,19o22019,Mouse,Oct 22_2019,C3,L5,Firing,Before ZD,shortsquare,1,0,Vm_Sec (mV),IN 11(pA),-75
+26,19o22020,Mouse,Oct 22_2019,C3,L5,Firing,Before ZD,ramp,1,0,Vm_Sec (mV),IN 11(pA),-77
 34,19o22042,Mouse,Oct 22_2019,C4,L5,Firing,Before ZD,,1,0,Vm_Sec (mV),IN 11(pA),-70
-40,19o23023,Mouse,Oct 23_2019,C4,L5,Firing,After ZD,,1,0,Vm_Sec (mV),IN 11(pA),-62
+40,19o23023,Mouse,Oct 23_2019,C4,L5,Firing,After ZD,ramp,1,0,Vm_Sec (mV),IN 11(pA),-62
 45,19o23033,Mouse,Oct 23_2019,C4,L5-Int,Firing,After ZD,,1,0,Vm_Sec (mV),IN 10(pA),-60
 49,19o23017,Mouse,Oct 23_2019,C4,L5-Int,Firing,Before ZD,,1,0,Vm_Sec (mV),IN 11(pA),-63
-51,19o23019,Mouse,Oct 23_2019,C4,L5,Firing,Before ZD,,1,0,Vm_Sec (mV),IN 10(pA),-62
+51,19o23019,Mouse,Oct 23_2019,C4,L5,Firing,Before ZD,ramp,1,0,Vm_Sec (mV),IN 10(pA),-62
 59,19o23067,Mouse,Oct 23_2019,C8,L5,Firing,After ZD,,1,0,Vm_Sec (mV),IN 11(pA),-71
 60,19o23068,Mouse,Oct 23_2019,C8,L5,Firing,After ZD,,1,0,Vm_Sec (mV),IN 11(pA),-68
 61,19o23069,Mouse,Oct 23_2019,C8,L5,Firing,After ZD,,1,0,Vm_Sec (mV),IN 10(pA),-70
-65,19o23056,Mouse,Oct 23_2019,C8,L5,Firing,Before ZD,,1,0,Vm_Sec (mV),IN 10(pA),-68
+65,19o23056,Mouse,Oct 23_2019,C8,L5,Firing,Before ZD,ramp,1,0,Vm_Sec (mV),IN 10(pA),-68
 80,2019_10_24_0033,Mouse,Oct 24_ 2019_CA,C1,L5,Firing,After CA,,1,0,Vm_Sec (mV),IN 11(pA),-65
 81,2019_10_24_0034,Mouse,Oct 24_ 2019_CA,C1,L5,Firing,After CA,,1,0,Vm_Sec (mV),IN 11(pA),-70
-82,2019_10_24_0035,Mouse,Oct 24_ 2019_CA,C1,L5,Firing,After CA,,1,0,Vm_Sec (mV),IN 11(pA),-70
+82,2019_10_24_0035,Mouse,Oct 24_ 2019_CA,C1,L5,Firing,After CA,ramp,1,0,Vm_Sec (mV),IN 11(pA),-70
 83,2019_10_24_0001,Mouse,Oct 24_ 2019_CA,C1,L5,Firing,Before CA,,1,0,Vm_Sec (mV),IN 11(pA),-65
 84,2019_10_24_0002,Mouse,Oct 24_ 2019_CA,C1,L5,Firing,Before CA,,1,0,Vm_Sec (mV),IN 11(pA),-65
 91,2019_10_24_0062,Mouse,Oct 24_ 2019_CA,C3,L5,Firing,After CA,,1,0,Vm_Sec (mV),IN 11(pA),-65
-92,2019_10_24_0063,Mouse,Oct 24_ 2019_CA,C3,L5,Firing,After CA,,1,0,Vm_Sec (mV),IN 11(pA),-66
+92,2019_10_24_0063,Mouse,Oct 24_ 2019_CA,C3,L5,Firing,After CA,ramp,1,0,Vm_Sec (mV),IN 11(pA),-66
 94,2019_10_24_0048,Mouse,Oct 24_ 2019_CA,C3,L5,Firing,Before CA,,1,0,Vm_Sec (mV),IN 11(pA),-74
 95,2019_10_24_0049,Mouse,Oct 24_ 2019_CA,C3,L5,Firing,Before CA,,1,0,Vm_Sec (mV),IN 11(pA),-74
-96,2019_10_24_0050,Mouse,Oct 24_ 2019_CA,C3,L5,Firing,Before CA,,1,0,Vm_Sec (mV),IN 11(pA),-74
-102,19o08001,Mouse,Oct 08_ 2019_KA,C1,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-61
-103,19o08002,Mouse,Oct 08_ 2019_KA,C1,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-61
-104,19o08003,Mouse,Oct 08_ 2019_KA,C1,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-61
-109,19o08010,Mouse,Oct 08_ 2019_KA,C2,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-67.8
-110,19o08011,Mouse,Oct 08_ 2019_KA,C2,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-67.8
-111,19o08012,Mouse,Oct 08_ 2019_KA,C2,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-67.8
-114,19o08017,Mouse,Oct 08_ 2019_KA,C3,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-67.8
-115,19o08018,Mouse,Oct 08_ 2019_KA,C3,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-67.8
-117,19o08020,Mouse,Oct 08_ 2019_KA,C3,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-67.8
-119,19o08025,Mouse,Oct 08_ 2019_KA,C4,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-68.2
-120,19o08026,Mouse,Oct 08_ 2019_KA,C4,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-68.2
-121,19o08027,Mouse,Oct 08_ 2019_KA,C4,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-68.2
-131,19o09012,Mouse,Oct 09_ 2019_4AP,C3,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-67.5
-133,19o09016,Mouse,Oct 09_ 2019_4AP,C4,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-74.5
-134,19o09017,Mouse,Oct 09_ 2019_4AP,C4,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-76
-135,19o09018,Mouse,Oct 09_ 2019_4AP,C4,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-75.5
-149,19o09042,Mouse,Oct 09_ 2019_4AP,C6,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-72
-150,19o09043,Mouse,Oct 09_ 2019_4AP,C6,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-72
-159,19o09057,Mouse,Oct 09_ 2019_4AP,C8,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-76
-160,19o09058,Mouse,Oct 09_ 2019_4AP,C8,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-77
-161,19o09059,Mouse,Oct 09_ 2019_4AP,C8,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-77
-169,19o23001,Mouse,Oct 23_2019,C1,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-62
-172,19o23003,Mouse,Oct 23_2019,C2,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-66
-174,19o23005,Mouse,Oct 23_2019,C2,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-67
-175,19o23006,Mouse,Oct 23_2019,C2,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-67
-177,19o23010,Mouse,Oct 23_2019,C3,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-73.5
-179,19o23012,Mouse,Oct 23_2019,C3,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-71
-186,19o23046,Mouse,Oct 23_2019,C7,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-71
-189,2019_10_24_0037,Mouse,Oct 24_ 2019_CA,C2,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-64
-190,2019_10_24_0038,Mouse,Oct 24_ 2019_CA,C2,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-63.5
-191,2019_10_24_0039,Mouse,Oct 24_ 2019_CA,C2,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-62
-196,2019_10_24_0073,Mouse,Oct 24_ 2019_CA,C4,L5,Firing,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-86.2
-153,19o09049,Mouse,Oct 09_ 2019_4AP,C7,L5,Firing rate,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-77
-154,19o09050,Mouse,Oct 09_ 2019_4AP,C7,L5,Firing rate,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-78
-181,19o23039,Mouse,Oct 23_2019,C6,L5,Firing rate,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-72
-182,19o23040,Mouse,Oct 23_2019,C6,L5,Firing rate,n.a,,1,0,Vm_Sec (mV),IN 11(pA),-72
-183,19o23041,Mouse,Oct 23_2019,C6,L5,Firing rate,n.a,,1,0,Vm_Sec (mV),IN 10(pA),-72
+96,2019_10_24_0050,Mouse,Oct 24_ 2019_CA,C3,L5,Firing,Before CA,ramp,1,0,Vm_Sec (mV),IN 11(pA),-74
+102,19o08001,Mouse,Oct 08_ 2019_KA,C1,L5,Firing,n.a,ramp,1,0,Vm_Sec (mV),IN 10(pA),-61
+103,19o08002,Mouse,Oct 08_ 2019_KA,C1,L5,Firing,n.a,shortsquare,1,0,Vm_Sec (mV),IN 10(pA),-61
+104,19o08003,Mouse,Oct 08_ 2019_KA,C1,L5,Firing,n.a,longsquare,1,0,Vm_Sec (mV),IN 10(pA),-61
+109,19o08010,Mouse,Oct 08_ 2019_KA,C2,L5,Firing,n.a,ramp,1,0,Vm_Sec (mV),IN 10(pA),-67.8
+110,19o08011,Mouse,Oct 08_ 2019_KA,C2,L5,Firing,n.a,shortsquare,1,0,Vm_Sec (mV),IN 10(pA),-67.8
+111,19o08012,Mouse,Oct 08_ 2019_KA,C2,L5,Firing,n.a,longsquare,1,0,Vm_Sec (mV),IN 10(pA),-67.8
+114,19o08017,Mouse,Oct 08_ 2019_KA,C3,L5,Firing,n.a,ramp,1,0,Vm_Sec (mV),IN 10(pA),-67.8
+115,19o08018,Mouse,Oct 08_ 2019_KA,C3,L5,Firing,n.a,longsquare,1,0,Vm_Sec (mV),IN 10(pA),-67.8
+117,19o08020,Mouse,Oct 08_ 2019_KA,C3,L5,Firing,n.a,shortsquare,1,0,Vm_Sec (mV),IN 10(pA),-67.8
+119,19o08025,Mouse,Oct 08_ 2019_KA,C4,L5,Firing,n.a,ramp,1,0,Vm_Sec (mV),IN 10(pA),-68.2
+120,19o08026,Mouse,Oct 08_ 2019_KA,C4,L5,Firing,n.a,shortsquare,1,0,Vm_Sec (mV),IN 10(pA),-68.2
+121,19o08027,Mouse,Oct 08_ 2019_KA,C4,L5,Firing,n.a,longsquare,1,0,Vm_Sec (mV),IN 10(pA),-68.2
+131,19o09012,Mouse,Oct 09_ 2019_4AP,C3,L5,Firing,n.a,shortsquare,1,0,Vm_Sec (mV),IN 11(pA),-67.5
+133,19o09016,Mouse,Oct 09_ 2019_4AP,C4,L5,Firing,n.a,longsquare,1,0,Vm_Sec (mV),IN 11(pA),-74.5
+134,19o09017,Mouse,Oct 09_ 2019_4AP,C4,L5,Firing,n.a,ramp,1,0,Vm_Sec (mV),IN 10(pA),-76
+135,19o09018,Mouse,Oct 09_ 2019_4AP,C4,L5,Firing,n.a,shortsquare,1,0,Vm_Sec (mV),IN 11(pA),-75.5
+149,19o09042,Mouse,Oct 09_ 2019_4AP,C6,L5,Firing,n.a,ramp,1,0,Vm_Sec (mV),IN 10(pA),-72
+150,19o09043,Mouse,Oct 09_ 2019_4AP,C6,L5,Firing,n.a,shortsquare,1,0,Vm_Sec (mV),IN 11(pA),-72
+159,19o09057,Mouse,Oct 09_ 2019_4AP,C8,L5,Firing,n.a,longsquare,1,0,Vm_Sec (mV),IN 11(pA),-76
+160,19o09058,Mouse,Oct 09_ 2019_4AP,C8,L5,Firing,n.a,shortsquare,1,0,Vm_Sec (mV),IN 11(pA),-77
+161,19o09059,Mouse,Oct 09_ 2019_4AP,C8,L5,Firing,n.a,ramp,1,0,Vm_Sec (mV),IN 10(pA),-77
+169,19o23001,Mouse,Oct 23_2019,C1,L5,Firing,n.a,longsquare,1,0,Vm_Sec (mV),IN 11(pA),-62
+172,19o23003,Mouse,Oct 23_2019,C2,L5,Firing,n.a,longsquare,1,0,Vm_Sec (mV),IN 11(pA),-66
+174,19o23005,Mouse,Oct 23_2019,C2,L5,Firing,n.a,shortsquare,1,0,Vm_Sec (mV),IN 11(pA),-67
+175,19o23006,Mouse,Oct 23_2019,C2,L5,Firing,n.a,ramp,1,0,Vm_Sec (mV),IN 10(pA),-67
+177,19o23010,Mouse,Oct 23_2019,C3,L5,Firing,n.a,longsquare,1,0,Vm_Sec (mV),IN 11(pA),-73.5
+179,19o23012,Mouse,Oct 23_2019,C3,L5,Firing,n.a,ramp,1,0,Vm_Sec (mV),IN 10(pA),-71
+186,19o23046,Mouse,Oct 23_2019,C7,L5,Firing,n.a,longsquare,1,0,Vm_Sec (mV),IN 11(pA),-71
+189,2019_10_24_0037,Mouse,Oct 24_ 2019_CA,C2,L5,Firing,n.a,longsquare,1,0,Vm_Sec (mV),IN 11(pA),-64
+190,2019_10_24_0038,Mouse,Oct 24_ 2019_CA,C2,L5,Firing,n.a,shortsquare,1,0,Vm_Sec (mV),IN 11(pA),-63.5
+191,2019_10_24_0039,Mouse,Oct 24_ 2019_CA,C2,L5,Firing,n.a,ramp,1,0,Vm_Sec (mV),IN 11(pA),-62
+196,2019_10_24_0073,Mouse,Oct 24_ 2019_CA,C4,L5,Firing,n.a,longsquare,1,0,Vm_Sec (mV),IN 11(pA),-86.2
+153,19o09049,Mouse,Oct 09_ 2019_4AP,C7,L5,Firing rate,n.a,ramp,1,0,Vm_Sec (mV),IN 10(pA),-77
+154,19o09050,Mouse,Oct 09_ 2019_4AP,C7,L5,Firing rate,n.a,shortsquare,1,0,Vm_Sec (mV),IN 11(pA),-78
+181,19o23039,Mouse,Oct 23_2019,C6,L5,Firing rate,n.a,longsquare,1,0,Vm_Sec (mV),IN 11(pA),-72
+182,19o23040,Mouse,Oct 23_2019,C6,L5,Firing rate,n.a,shortsquare,1,0,Vm_Sec (mV),IN 11(pA),-72
+183,19o23041,Mouse,Oct 23_2019,C6,L5,Firing rate,n.a,ramp,1,0,Vm_Sec (mV),IN 10(pA),-72
 66,19o23060,Mouse,Oct 23_2019,C8,L5,Gap free,After ZD,,,,,,
 67,19o23072,Mouse,Oct 23_2019,C8,L5,Gap free,After ZD,,,,,,
 68,19o23051,Mouse,Oct 23_2019,C8,L5,Gap free,Before ZD,,,,,,
