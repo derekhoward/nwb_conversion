@@ -1,0 +1,133 @@
+file_id,dandi_id,Data Type,expt_date,layer_name,RMP,subject_id,sex,age,seizure_duration_years,diagnosis,resection_location,drugs,internal_soln,external_soln,aggregated_cell_layer,is_epileptogenic,putative_interneuron,cutting_solution,has_morphology
+18129009,sub-1801-18129009_icephys.nwb,Human,Jan_29_2018,L5,-69.4,1801,M,30.0,4.0,Epilepsy,Right-ATL,"CLB, LSC",Potassium gluconate,Synaptic Blockers,L5,False,False,NMDG,False
+18201004,sub-1802-18201004_icephys.nwb,Human,Feb_01_2018,L5,-60.1,1802,M,56.0,14.0,Epilepsy,Left-ATL,"CBZ, LSC, LTG",Potassium gluconate,Synaptic Blockers,L5,False,False,NMDG,False
+18201011,sub-1802-18201011_icephys.nwb,Human,Feb_01_2018,L5,-66.5,1802,M,56.0,14.0,Epilepsy,Left-ATL,"CBZ, LSC, LTG",Potassium gluconate,Synaptic Blockers,L5,False,False,NMDG,False
+18220008,sub-1803-18220008_icephys.nwb,Human,Feb_20_2018,L23,-63.2,1803,M,51.0,17.0,Epilepsy,Left-ATL,"CBZ, LSC, CLB",Potassium gluconate,Synaptic Blockers,L23,False,False,NMDG,False
+18220019,sub-1803-18220019_icephys.nwb,Human,Feb_20_2018,L23,-64.9,1803,M,51.0,17.0,Epilepsy,Left-ATL,"CBZ, LSC, CLB",Potassium gluconate,Synaptic Blockers,L23,False,False,NMDG,False
+18320005,sub-1808-18320005_icephys.nwb,Human,March_20_2018,L23,-70.5,1808,M,23.0,7.0,Tumor,Right-ATL,"LTG, CLB",Potassium gluconate,Synaptic Blockers,L23,False,False,NMDG,False
+18320021,sub-1808-18320021_icephys.nwb,Human,March_20_2018,L23,-71.3,1808,M,23.0,7.0,Tumor,Right-ATL,"LTG, CLB",Potassium gluconate,Synaptic Blockers,L23,False,True,NMDG,False
+18320031,sub-1809-18320031_icephys.nwb,Human,March_20_2018,L23,-62.4,1809,F,33.0,17.0,Epilepsy,Right-ATL,"LRZ, PB",Potassium gluconate,Synaptic Blockers,L23,False,False,NMDG,False
+18329014,sub-1813-18329014_icephys.nwb,Human,March_29_2018,L23,-61.5,1813,F,22.0,12.0,Epilepsy,Left-ATL,"CBZ, CLB",Potassium gluconate,Synaptic Blockers,L23,False,False,NMDG,False
+18329044,sub-1813-18329044_icephys.nwb,Human,March_29_2018,L23-Int,-69.7,1813,F,22.0,12.0,Epilepsy,Left-ATL,"CBZ, CLB",Potassium gluconate,Synaptic Blockers,L23,False,True,NMDG,False
+18329051,sub-1813-18329051_icephys.nwb,Human,March_29_2018,L23,-69.7,1813,F,22.0,12.0,Epilepsy,Left-ATL,"CBZ, CLB",Potassium gluconate,Synaptic Blockers,L23,False,False,NMDG,False
+18329062,sub-1813-18329062_icephys.nwb,Human,March_29_2018,L23,-61.2,1813,F,22.0,12.0,Epilepsy,Left-ATL,"CBZ, CLB",Potassium gluconate,Synaptic Blockers,L23,False,False,NMDG,False
+18426017,sub-1815-18426017_icephys.nwb,Human,April_26_2018,L23,-64.5,1815,M,29.0,28.0,Epilepsy,Left-ATL,LEV,Potassium gluconate,Synaptic Blockers,L23,False,False,NMDG,False
+18o22001,sub-1822-18o22001_icephys.nwb,Human,October_ 22_2018,L23,-74.5,1822,F,40.0,10.0,Tumor,Right-ATL,LSC,Potassium gluconate,Synaptic Blockers,L23,False,False,Sucrose,False
+18o22010,sub-1822-18o22010_icephys.nwb,Human,October_ 22_2018,L23,-71.6,1822,F,40.0,10.0,Tumor,Right-ATL,LSC,Potassium gluconate,Synaptic Blockers,L23,False,False,Sucrose,False
+18o22020,sub-1822-18o22020_icephys.nwb,Human,October_ 22_2018,L23,-68.4,1822,F,40.0,10.0,Tumor,Right-ATL,LSC,Potassium gluconate,Synaptic Blockers,L23,False,False,Sucrose,False
+19128006,sub-1902-19128006_icephys.nwb,Human,Jan_28_2019,L5,-65.4,1902,F,29.0,13.0,Epilepsy,Left-ATL,"TMP, LEV",Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19128040,sub-1902-19128040_icephys.nwb,Human,Jan_28_2019,L5,-64.1,1902,F,29.0,13.0,Epilepsy,Left-ATL,"TMP, LEV",Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19129058,sub-1903-19129058_icephys.nwb,Human,Jan_29_2019,L2,-67.7,1903,F,52.0,5.0,Epilepsy,Left-ATL,"LSC, LTG",Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+19129072,sub-1903-19129072_icephys.nwb,Human,Jan_29_2019,L3,-67.2,1903,F,52.0,5.0,Epilepsy,Left-ATL,"LSC, LTG",Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+19228044,sub-1906-19228044_icephys.nwb,Human,Feb_28_2019,L5,-66.9,1906,M,39.0,12.0,Epilepsy,Left-ATL,"CLB, LTG, MJ",Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19228058,sub-1906-19228058_icephys.nwb,Human,Feb_28_2019,L5,-66.2,1906,M,39.0,12.0,Epilepsy,Left-ATL,"CLB, LTG, MJ",Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19228068,sub-1906-19228068_icephys.nwb,Human,Feb_28_2019,L5,-63.0,1906,M,39.0,12.0,Epilepsy,Left-ATL,"CLB, LTG, MJ",Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19319025,sub-1907-19319025_icephys.nwb,Human,March_19_2019,L5,-67.8,1907,M,41.0,23.0,Tumor,Right-ATL,"DR, CLB, ",Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19320022,sub-1908-19320022_icephys.nwb,Human,March_20_ 2019,L23,-75.9,1908,F,26.0,9.0,Epilepsy,Right-ATL,"ESL, TMP, CLB",Potassium gluconate,Synaptic Blockers,L23,True,False,Sucrose,True
+19328001,sub-1909-19328001_icephys.nwb,Human,March_28_2019,L5,-67.0,1909,F,43.0,34.0,Epilepsy,Right-ATL,"LTG, LSC",Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19328009,sub-1909-19328009_icephys.nwb,Human,March_28_2019,L5,-62.0,1909,F,43.0,34.0,Epilepsy,Right-ATL,"LTG, LSC",Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19328019,sub-1909-19328019_icephys.nwb,Human,March_28_2019,L5,-67.3,1909,F,43.0,34.0,Epilepsy,Right-ATL,"LTG, LSC",Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19328034,sub-1909-19328034_icephys.nwb,Human,March_28_2019,L5,-61.2,1909,F,43.0,34.0,Epilepsy,Right-ATL,"LTG, LSC",Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19328046,sub-1909-19328046_icephys.nwb,Human,March_28_2019,L5,-63.4,1909,F,43.0,34.0,Epilepsy,Right-ATL,"LTG, LSC",Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19o10010,sub-1911-19o10010_icephys.nwb,Human,October_10_2019_Epileptogenic zone,L5,-70.0,1911,F,54.0,8.0,Epilepsy,Left-ATL,TBA,Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19o10045,sub-1911-19o10045_icephys.nwb,Human,October_10_2019_Epileptogenic zone,L5,-69.0,1911,F,54.0,8.0,Epilepsy,Left-ATL,TBA,Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19o10054,sub-1911-19o10054_icephys.nwb,Human,October_10_2019_Epileptogenic zone,L5,-70.0,1911,F,54.0,8.0,Epilepsy,Left-ATL,TBA,Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19o10065,sub-1911-19o10065_icephys.nwb,Human,October_10_2019_Epileptogenic zone,L2,-74.0,1911,F,54.0,8.0,Epilepsy,Left-ATL,TBA,Potassium gluconate,Synaptic Blockers,L23,False,False,Sucrose,False
+2019_11_04_0001,sub-1912-2019_11_04_0001_icephys.nwb,Human,Nov_04_2019,L3C,-63.6,1912,F,59.0,39.0,Epilepsy,Right-ATL,TBA,Potassium gluconate,Synaptic Blockers,L3C,False,False,Sucrose,False
+2019_11_04_0083,sub-1912-2019_11_04_0083_icephys.nwb,Human,Nov_04_2019,L3C,-62.0,1912,F,59.0,39.0,Epilepsy,Right-ATL,TBA,Potassium gluconate,Synaptic Blockers,L3C,False,True,Sucrose,False
+2019_11_26_0006,sub-1913-2019_11_26_0006_icephys.nwb,Human,Nov_26_2019,L5,-71.5,1913,M,37.0,5.0,Epilepsy,Right-ATL,"CLB,LSC",Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+2019_11_26_0019,sub-1913-2019_11_26_0019_icephys.nwb,Human,Nov_26_2019,L5,-72.9,1913,M,37.0,5.0,Epilepsy,Right-ATL,"CLB,LSC",Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+2019_11_26_0037,sub-1913-2019_11_26_0037_icephys.nwb,Human,Nov_26_2019,L3C,-68.7,1913,M,37.0,5.0,Epilepsy,Right-ATL,"CLB,LSC",Potassium gluconate,Synaptic Blockers,L3C,False,False,Sucrose,False
+2019_11_28_0010,sub-1914-2019_11_28_0010_icephys.nwb,Human,Nov_28_2019,L3C,-62.4,1914,M,57.0,27.0,Epilepsy,Left-ATL,"CLB, ESL, LTG",Potassium gluconate,Synaptic Blockers,L3C,False,False,Sucrose,True
+2019_11_28_0038,sub-1914-2019_11_28_0038_icephys.nwb,Human,Nov_28_2019,L3C,-71.9,1914,M,57.0,27.0,Epilepsy,Left-ATL,"CLB, ESL, LTG",Potassium gluconate,Synaptic Blockers,L3C,False,False,Sucrose,False
+15o08002,sub-X2015.10.08-15o08002_icephys.nwb,Human,2015-10-08,L5,-63.7,X2015.10.08,M,21.0,2.0,Epilepsy,Parietal lobe,"DR, CLB, MJ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+15o08007,sub-X2015.10.08-15o08007_icephys.nwb,Human,2015-10-08,L5,-58.9,X2015.10.08,M,21.0,2.0,Epilepsy,Parietal lobe,"DR, CLB, MJ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+15o08011,sub-X2015.10.08-15o08011_icephys.nwb,Human,2015-10-08,L5,-62.1,X2015.10.08,M,21.0,2.0,Epilepsy,Parietal lobe,"DR, CLB, MJ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+15o08017,sub-X2015.10.08-15o08017_icephys.nwb,Human,2015-10-08,L5,-57.1960422052088,X2015.10.08,M,21.0,2.0,Epilepsy,Parietal lobe,"DR, CLB, MJ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+15o08020,sub-X2015.10.08-15o08020_icephys.nwb,Human,2015-10-08,L5,-63.2,X2015.10.08,M,21.0,2.0,Epilepsy,Parietal lobe,"DR, CLB, MJ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+15o08022,sub-X2015.10.08-15o08022_icephys.nwb,Human,2015-10-08,L5,-62.3,X2015.10.08,M,21.0,2.0,Epilepsy,Parietal lobe,"DR, CLB, MJ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+15o08032,sub-X2015.10.08-15o08032_icephys.nwb,Human,2015-10-08,L5,-60.5,X2015.10.08,M,21.0,2.0,Epilepsy,Parietal lobe,"DR, CLB, MJ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+15o08038,sub-X2015.10.08-15o08038_icephys.nwb,Human,2015-10-08,L5,-59.9,X2015.10.08,M,21.0,2.0,Epilepsy,Parietal lobe,"DR, CLB, MJ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2015_11_09_0003,sub-X2015.11.09-2015_11_09_0003_icephys.nwb,Human,2015-11-09,L2.3,-62.4,X2015.11.09,M,53.0,9.0,Epilepsy,Left-ATL,LEV,Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2015_11_09_0017,sub-X2015.11.09-2015_11_09_0017_icephys.nwb,Human,2015-11-09,L2.3,-61.9,X2015.11.09,M,53.0,9.0,Epilepsy,Left-ATL,LEV,Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2015_11_09_0053,sub-X2015.11.09-2015_11_09_0053_icephys.nwb,Human,2015-11-09,L2.3,-57.5,X2015.11.09,M,53.0,9.0,Epilepsy,Left-ATL,LEV,Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2015_11_09_0078,sub-X2015.11.09-2015_11_09_0078_icephys.nwb,Human,2015-11-09,L5,-61.3,X2015.11.09,M,53.0,9.0,Epilepsy,Left-ATL,LEV,Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2015_11_09_0106,sub-X2015.11.09-2015_11_09_0106_icephys.nwb,Human,2015-11-09,L2.3,-63.4,X2015.11.09,M,53.0,9.0,Epilepsy,Left-ATL,LEV,Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2015_11_09_0107,sub-X2015.11.09-2015_11_09_0107_icephys.nwb,Human,2015-11-09,L2.3,-60.4,X2015.11.09,M,53.0,9.0,Epilepsy,Left-ATL,LEV,Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2016_01_28_0004,sub-X2016.01.28-2016_01_28_0004_icephys.nwb,Human,2016-01-28,L5,-69.7,X2016.01.28,F,53.0,43.0,Epilepsy,Left-ATL,"CBZ, LSC, LEV",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2016_01_28_0012,sub-X2016.01.28-2016_01_28_0012_icephys.nwb,Human,2016-01-28,L5,-62.5,X2016.01.28,F,53.0,43.0,Epilepsy,Left-ATL,"CBZ, LSC, LEV",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2016_01_28_0019,sub-X2016.01.28-2016_01_28_0019_icephys.nwb,Human,2016-01-28,L5,-59.2,X2016.01.28,F,53.0,43.0,Epilepsy,Left-ATL,"CBZ, LSC, LEV",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2016_02_04_0009,sub-X2016.02.04-2016_02_04_0009_icephys.nwb,Human,2016-02-04,L5,-68.0,X2016.02.04,F,37.0,2.0,Tumor,Right-FL,"GPN, LSC, LEV, CLB, LRZ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2016_02_04_0015,sub-X2016.02.04-2016_02_04_0015_icephys.nwb,Human,2016-02-04,L5,-57.5,X2016.02.04,F,37.0,2.0,Tumor,Right-FL,"GPN, LSC, LEV, CLB, LRZ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2016_02_04_0018,sub-X2016.02.04-2016_02_04_0018_icephys.nwb,Human,2016-02-04,L5,-58.3,X2016.02.04,F,37.0,2.0,Tumor,Right-FL,"GPN, LSC, LEV, CLB, LRZ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2016_02_04_0021,sub-X2016.02.04-2016_02_04_0021_icephys.nwb,Human,2016-02-04,L5,-60.2,X2016.02.04,F,37.0,2.0,Tumor,Right-FL,"GPN, LSC, LEV, CLB, LRZ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2016_02_04_0029,sub-X2016.02.04-2016_02_04_0029_icephys.nwb,Human,2016-02-04,L5,-64.4,X2016.02.04,F,37.0,2.0,Tumor,Right-FL,"GPN, LSC, LEV, CLB, LRZ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2016_02_04_0033,sub-X2016.02.04-2016_02_04_0033_icephys.nwb,Human,2016-02-04,L5,-58.5,X2016.02.04,F,37.0,2.0,Tumor,Right-FL,"GPN, LSC, LEV, CLB, LRZ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2016_02_04_0042,sub-X2016.02.04-2016_02_04_0042_icephys.nwb,Human,2016-02-04,L5,-59.2,X2016.02.04,F,37.0,2.0,Tumor,Right-FL,"GPN, LSC, LEV, CLB, LRZ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2016_02_04_0045,sub-X2016.02.04-2016_02_04_0045_icephys.nwb,Human,2016-02-04,L5,-59.2,X2016.02.04,F,37.0,2.0,Tumor,Right-FL,"GPN, LSC, LEV, CLB, LRZ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2016_02_25_0005,sub-X2016.02.25-2016_02_25_0005_icephys.nwb,Human,2016-02-25,L2.3,-66.0,X2016.02.25,F,45.0,20.0,Epilepsy,Right-ATL,LTG,Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2016_02_25_0007,sub-X2016.02.25-2016_02_25_0007_icephys.nwb,Human,2016-02-25,L2.3,-66.0,X2016.02.25,F,45.0,20.0,Epilepsy,Right-ATL,LTG,Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2016_02_25_0073,sub-X2016.02.25-2016_02_25_0073_icephys.nwb,Human,2016-02-25,L2.3,-60.3,X2016.02.25,F,45.0,20.0,Epilepsy,Right-ATL,LTG,Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2016_02_25_0082,sub-X2016.02.25-2016_02_25_0082_icephys.nwb,Human,2016-02-25,L2.3,-66.8,X2016.02.25,F,45.0,20.0,Epilepsy,Right-ATL,LTG,Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2016_02_25_0134,sub-X2016.02.25-2016_02_25_0134_icephys.nwb,Human,2016-02-25,L2.3,-60.8,X2016.02.25,F,45.0,20.0,Epilepsy,Right-ATL,LTG,Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2016_02_25_0255,sub-X2016.02.25-2016_02_25_0255_icephys.nwb,Human,2016-02-25,L2.3,-62.1,X2016.02.25,F,45.0,20.0,Epilepsy,Right-ATL,LTG,Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2016_02_29_0032,sub-X2016.02.29-2016_02_29_0032_icephys.nwb,Human,2016-02-29,L5,-65.4,X2016.02.29,F,47.0,4.0,Epilepsy,Left-ATL,"CBZ, CLB",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2016_02_29_0065,sub-X2016.02.29-2016_02_29_0065_icephys.nwb,Human,2016-02-29,L5,-61.8,X2016.02.29,F,47.0,4.0,Epilepsy,Left-ATL,"CBZ, CLB",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2016_03_01_0000,sub-X2016.03.01-2016_03_01_0000_icephys.nwb,Human,2016-03-01,L2.3,-65.5,X2016.03.01,M,52.0,13.0,Epilepsy,Left-ATL,"CBZ, CLB",Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2016_03_01_0047,sub-X2016.03.01-2016_03_01_0047_icephys.nwb,Human,2016-03-01,L2.3,-61.0,X2016.03.01,M,52.0,13.0,Epilepsy,Left-ATL,"CBZ, CLB",Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2016_03_03_0002,sub-X2016.03.03-2016_03_03_0002_icephys.nwb,Human,2016-03-03,L2.3,-66.2,X2016.03.03,F,26.0,25.0,Epilepsy,Right-ATL,"CBZ, CLB, LTG",Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2016_03_03_0054,sub-X2016.03.03-2016_03_03_0054_icephys.nwb,Human,2016-03-03,L2.3,-66.3,X2016.03.03,F,26.0,25.0,Epilepsy,Right-ATL,"CBZ, CLB, LTG",Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2016_03_03_0100,sub-X2016.03.03-2016_03_03_0100_icephys.nwb,Human,2016-03-03,L2.3,-64.8,X2016.03.03,F,26.0,25.0,Epilepsy,Right-ATL,"CBZ, CLB, LTG",Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+2016_03_03_0103,sub-X2016.03.03-2016_03_03_0103_icephys.nwb,Human,2016-03-03,L2.3,-65.7,X2016.03.03,F,26.0,25.0,Epilepsy,Right-ATL,"CBZ, CLB, LTG",Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+19122003,sub-X2019.01.22-19122003_icephys.nwb,Human,2019-01-22,L2.3,-68.7,X2019.01.22,M,28.0,13.0,Epilepsy,Left-ATL,"CLB, MJ",Potassium gluconate,aCSF,L23,False,False,Sucrose,True
+19122017,sub-X2019.01.22-19122017_icephys.nwb,Human,2019-01-22,L2.3,-66.7,X2019.01.22,M,28.0,13.0,Epilepsy,Left-ATL,"CLB, MJ",Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+19122024,sub-X2019.01.22-19122024_icephys.nwb,Human,2019-01-22,L3c,-63.7,X2019.01.22,M,28.0,13.0,Epilepsy,Left-ATL,"CLB, MJ",Potassium gluconate,aCSF,L3C,False,False,Sucrose,False
+19122026,sub-X2019.01.22-19122026_icephys.nwb,Human,2019-01-22,L5,-60.6,X2019.01.22,M,28.0,13.0,Epilepsy,Left-ATL,"CLB, MJ",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+19128003,sub-X2019.01.28-19128003_icephys.nwb,Human,2019-01-28,L5,-62.0,X2019.01.28,M,39.0,12.0,Epilepsy,Left-ATL,"CPS, GTC",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+19128061,sub-X2019.01.28-19128061_icephys.nwb,Human,2019-01-28,L5,-66.0,X2019.01.28,M,39.0,12.0,Epilepsy,Left-ATL,"CPS, GTC",Potassium gluconate,aCSF,L5,False,False,Sucrose,True
+19128068,sub-X2019.01.28-19128068_icephys.nwb,Human,2019-01-28,L5,-62.3,X2019.01.28,M,39.0,12.0,Epilepsy,Left-ATL,"CPS, GTC",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+19129004,sub-X2019.01.29-19129004_icephys.nwb,Human,2019-01-29,L3c,-62.9,X2019.01.29,F,52.0,6.0,Epilepsy,Left-ATL,"LTG, LEF",Potassium gluconate,aCSF,L3C,False,False,Sucrose,True
+19129015,sub-X2019.01.29-19129015_icephys.nwb,Human,2019-01-29,L5,-62.7,X2019.01.29,F,52.0,6.0,Epilepsy,Left-ATL,"LTG, LEF",Potassium gluconate,aCSF,L5,False,False,Sucrose,True
+19129022,sub-X2019.01.29-19129022_icephys.nwb,Human,2019-01-29,L5,-65.8,X2019.01.29,F,52.0,6.0,Epilepsy,Left-ATL,"LTG, LEF",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+19129024,sub-X2019.01.29-19129024_icephys.nwb,Human,2019-01-29,L5,-63.7,X2019.01.29,F,52.0,6.0,Epilepsy,Left-ATL,"LTG, LEF",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+19129040,sub-X2019.01.29-19129040_icephys.nwb,Human,2019-01-29,L3c,-66.5,X2019.01.29,F,52.0,6.0,Epilepsy,Left-ATL,"LTG, LEF",Potassium gluconate,aCSF,L3C,False,False,Sucrose,False
+19129043,sub-X2019.01.29-19129043_icephys.nwb,Human,2019-01-29,L3c,-65.8,X2019.01.29,F,52.0,6.0,Epilepsy,Left-ATL,"LTG, LEF",Potassium gluconate,aCSF,L3C,False,False,Sucrose,False
+19129052,sub-X2019.01.29-19129052_icephys.nwb,Human,2019-01-29,L2.3,-60.3,X2019.01.29,F,52.0,6.0,Epilepsy,Left-ATL,"LTG, LEF",Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+19129057,sub-X2019.01.29-19129057_icephys.nwb,Human,2019-01-29,L2.3,-67.7,X2019.01.29,F,52.0,6.0,Epilepsy,Left-ATL,"LTG, LEF",Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+19129069,sub-X2019.01.29-19129069_icephys.nwb,Human,2019-01-29,L2.3,-67.2,X2019.01.29,F,52.0,6.0,Epilepsy,Left-ATL,"LTG, LEF",Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+19320001,sub-X2019.03.20-19320001_icephys.nwb,Human,2019-03-20,L5,-65.8,X2019.03.20,F,26.0,9.0,Epilepsy,Right-ATL,"ESL, TMP, CLB",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+19320017,sub-X2019.03.20-19320017_icephys.nwb,Human,2019-03-20,L2.3,-73.2,X2019.03.20,F,26.0,9.0,Epilepsy,Right-ATL,"ESL, TMP, CLB",Potassium gluconate,aCSF,L23,False,False,Sucrose,True
+19320024,sub-X2019.03.20-19320024_icephys.nwb,Human,2019-03-20,L3c,-75.9,X2019.03.20,F,26.0,9.0,Epilepsy,Right-ATL,"ESL, TMP, CLB",Potassium gluconate,aCSF,L3C,False,False,Sucrose,False
+19320025,sub-X2019.03.20-19320025_icephys.nwb,Human,2019-03-20,L2.3,-66.0,X2019.03.20,F,26.0,9.0,Epilepsy,Right-ATL,"ESL, TMP, CLB",Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+19320030,sub-X2019.03.20-19320030_icephys.nwb,Human,2019-03-20,L2.3,-65.9,X2019.03.20,F,26.0,9.0,Epilepsy,Right-ATL,"ESL, TMP, CLB",Potassium gluconate,aCSF,L23,False,False,Sucrose,False
+19320041,sub-X2019.03.20-19320041_icephys.nwb,Human,2019-03-20,L5,-61.6,X2019.03.20,F,26.0,9.0,Epilepsy,Right-ATL,"ESL, TMP, CLB",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2019_11_26_0094,sub-X2019.11.26-2019_11_26_0094_icephys.nwb,Human,2019-11-26,L5,-65.2,X2019.11.26,M,37.0,5.0,Epilepsy,Right-ATL,"CLB, LSC",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2019_11_26_0110,sub-X2019.11.26-2019_11_26_0110_icephys.nwb,Human,2019-11-26,L5,-65.4,X2019.11.26,M,37.0,5.0,Epilepsy,Right-ATL,"CLB, LSC",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2019_11_28_0079,sub-X2019.11.28-2019_11_28_0079_icephys.nwb,Human,2019-11-28,L3c,-64.2,X2019.11.28,M,55.0,27.0,Epilepsy,Left-ATL,"CLB, ESL, LTG",Potassium gluconate,aCSF,L3C,False,False,Sucrose,False
+2019_11_28_0093,sub-X2019.11.28-2019_11_28_0093_icephys.nwb,Human,2019-11-28,L3c,-64.3,X2019.11.28,M,55.0,27.0,Epilepsy,Left-ATL,"CLB, ESL, LTG",Potassium gluconate,aCSF,L3C,False,False,Sucrose,False
+2019_11_28_0119,sub-X2019.11.28-2019_11_28_0119_icephys.nwb,Human,2019-11-28,L5,-61.0,X2019.11.28,M,55.0,27.0,Epilepsy,Left-ATL,"CLB, ESL, LTG",Potassium gluconate,aCSF,L5,False,True,Sucrose,False
+2020_01_06_0017,sub-X2020.01.06-2020_01_06_0017_icephys.nwb,Human,2020-01-06,L3c,-64.5,X2020.01.06,F,42.0,3.0,Epilepsy,Right-ATL,"CBZ, GPN",Potassium gluconate,aCSF,L3C,False,False,Sucrose,False
+2020_01_06_0048,sub-X2020.01.06-2020_01_06_0048_icephys.nwb,Human,2020-01-06,L3c,-60.2,X2020.01.06,F,42.0,3.0,Epilepsy,Right-ATL,"CBZ, GPN",Potassium gluconate,aCSF,L3C,False,False,Sucrose,True
+2020_01_06_0063,sub-X2020.01.06-2020_01_06_0063_icephys.nwb,Human,2020-01-06,L3c,-66.9,X2020.01.06,F,42.0,3.0,Epilepsy,Right-ATL,"CBZ, GPN",Potassium gluconate,aCSF,L3C,False,False,Sucrose,False
+2020_01_06_0082,sub-X2020.01.06-2020_01_06_0082_icephys.nwb,Human,2020-01-06,L3c,-66.7,X2020.01.06,F,42.0,3.0,Epilepsy,Right-ATL,"CBZ, GPN",Potassium gluconate,aCSF,L3C,False,False,Sucrose,False
+2020_01_06_0090,sub-X2020.01.06-2020_01_06_0090_icephys.nwb,Human,2020-01-06,L3c,-65.2,X2020.01.06,F,42.0,3.0,Epilepsy,Right-ATL,"CBZ, GPN",Potassium gluconate,aCSF,L3C,False,False,Sucrose,False
+2020_01_06_0095,sub-X2020.01.06-2020_01_06_0095_icephys.nwb,Human,2020-01-06,L3c,-60.2,X2020.01.06,F,42.0,3.0,Epilepsy,Right-ATL,"CBZ, GPN",Potassium gluconate,aCSF,L3C,False,False,Sucrose,False
+2020_01_27_0002,sub-X2020.01.27-2020_01_27_0002_icephys.nwb,Human,2020-01-27,L5,-65.0,X2020.01.27,M,24.0,4.0,Epilepsy,Left-ATL,"LEV, LTG",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2020_01_27_0008,sub-X2020.01.27-2020_01_27_0008_icephys.nwb,Human,2020-01-27,L5,-74.2,X2020.01.27,M,24.0,4.0,Epilepsy,Left-ATL,"LEV, LTG",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2020_01_27_0038,sub-X2020.01.27-2020_01_27_0038_icephys.nwb,Human,2020-01-27,L3c,-69.9,X2020.01.27,M,24.0,4.0,Epilepsy,Left-ATL,"LEV, LTG",Potassium gluconate,aCSF,L3C,False,False,Sucrose,False
+2020_01_27_0042,sub-X2020.01.27-2020_01_27_0042_icephys.nwb,Human,2020-01-27,L5,-60.7,X2020.01.27,M,24.0,4.0,Epilepsy,Left-ATL,"LEV, LTG",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2020_01_28_0008,sub-X2020.01.28-2020_01_28_0008_icephys.nwb,Human,2020-01-28,L5,-65.0,X2020.01.28,M,33.0,6.0,Epilepsy,Right-ATL,"LSc,PGB,PHN",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2020_01_28_0017,sub-X2020.01.28-2020_01_28_0017_icephys.nwb,Human,2020-01-28,L5,-55.0,X2020.01.28,M,33.0,6.0,Epilepsy,Right-ATL,"LSc,PGB,PHN",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2020_01_28_0029,sub-X2020.01.28-2020_01_28_0029_icephys.nwb,Human,2020-01-28,L5,-68.0,X2020.01.28,M,33.0,6.0,Epilepsy,Right-ATL,"LSc,PGB,PHN",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+2020_03_02_0023,sub-X2020.03.02-2020_03_02_0023_icephys.nwb,Human,2020-03-02,L5,-68.0,X2020.03.02,F,57.0,56.0,Epilepsy,Left-ATL,"CLB, LTG, PRM, CBD oil",Potassium gluconate,aCSF,L5,False,False,Sucrose,False
+18118024,sub-18118024_icephys.nwb,Mouse,Jan 18_2018,,-59.4,,,,,,,,Potassium gluconate,Synaptic Blockers,L5,False,True,NMDG,False
+18130014,sub-18130014_icephys.nwb,Mouse,Jan 30_2018,,-75.2,,,,,,,,Potassium gluconate,Synaptic Blockers,L5,False,False,NMDG,False
+18208024,sub-18208024_icephys.nwb,Mouse,Feb 08_2018,,-63.2,,,,,,,,Potassium gluconate,Synaptic Blockers,L5,False,False,NMDG,False
+19o22001,sub-19o22001_icephys.nwb,Mouse,Oct 22_2019,,-64.0,,,,,,,,Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19o22018,sub-19o22018_icephys.nwb,Mouse,Oct 22_2019,,-75.0,,,,,,,,Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19o23001,sub-19o23001_icephys.nwb,Mouse,Oct 23_2019,,-62.0,,,,,,,,Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19o23003,sub-19o23003_icephys.nwb,Mouse,Oct 23_2019,,-66.0,,,,,,,,Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19o23010,sub-19o23010_icephys.nwb,Mouse,Oct 23_2019,,-73.5,,,,,,,,Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19o23039,sub-19o23039_icephys.nwb,Mouse,Oct 23_2019,,-72.0,,,,,,,,Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+19o23046,sub-19o23046_icephys.nwb,Mouse,Oct 23_2019,,-71.0,,,,,,,,Potassium gluconate,Synaptic Blockers,L5,False,False,Sucrose,False
+2018_02_08_0001,sub-2018_02_08_0001_icephys.nwb,Mouse,Feb 08_2018,,-62.6,,,,,,,,Potassium gluconate,Synaptic Blockers,L5,False,False,NMDG,False
