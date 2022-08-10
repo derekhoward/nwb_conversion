@@ -24,24 +24,32 @@ table(df$sex)
 
 subset <- df %>% 
   filter(species == 'Human') %>% 
-  filter(aggregated_cell_layer %in% c('L23', 'L3C', 'L5')) #%>% 
+  filter(layer_name %in% c('L23', 'L3C', 'L5')) #%>% 
 
-subset %>% select(-feature, -value) %>% distinct() %>% select(aggregated_cell_layer, putative_interneuron, external_soln) %>% table()
+subset %>% select(-feature, -value) %>% distinct() %>% select(layer_name, putative_interneuron, external_soln) %>% table()
 
 df %>% 
   filter(species == 'Mouse') %>% 
   select(-feature, -value) %>% 
   distinct() %>% 
-  select(aggregated_cell_layer, putative_interneuron, external_soln) %>%
+  select(layer_name, putative_interneuron, external_soln) %>%
   table()
 
 df %>% 
   filter(species == 'Human') %>% 
-  filter(aggregated_cell_layer %in% c('L23', 'L3C', 'L5')) %>% 
+  filter(layer_name %in% c('L23', 'L3C', 'L5')) %>% 
   select(subject_id, age) %>% 
   distinct() %>% 
   #select(age) %>% 
   summarise(meanage = mean(age), sd=sd(age))
+
+df %>% 
+  filter(species == 'Human') %>% 
+  filter(layer_name %in% c('L23', 'L3C', 'L5')) %>% 
+  select(resection_location, subject_id) %>% 
+  #distinct() %>% 
+  select(resection_location) %>% 
+  table()
 
 
 dir.create(path = './results')
@@ -52,7 +60,7 @@ test <- read_csv('./data/processed/features/all_features_wide.csv')
 test %>%
   filter(`Data Type` == 'Human') %>% 
   select(age) %>% 
-  summarise(M = mean(age), SD=sd(age))
+  summarise(M = mean(age), SD=sd(age), R=range(age))
 
 
 
@@ -67,7 +75,7 @@ test %>%
 theme_set(theme_cowplot(font_size = 22))
 
 p3a <- df %>% 
-  filter(species == 'Human' & aggregated_cell_layer == 'L5' & feature == 'input_resistance') %>% 
+  filter(species == 'Human' & layer_name == 'L5' & feature == 'input_resistance') %>% 
   ggplot(aes(x = external_soln, y=value)) +
   geom_boxplot(outlier.shape = NA) + #this does not remove the outliers, it only hides them, so the range calculated for the y-axis will be the same with outliers shown and outliers hidden
   geom_point(alpha=0.5, position = position_jitter(width = 0.15)) +
@@ -80,7 +88,7 @@ p3a <- df %>%
   ggtitle('A') 
 
 p3b <- df %>%
-  filter(aggregated_cell_layer == 'L5') %>% 
+  filter(layer_name == 'L5') %>% 
   filter(external_soln == 'Synaptic Blockers') %>% 
   filter(feature == 'input_resistance') %>% 
   ggplot(aes(x=species, y=value)) + 
@@ -91,7 +99,7 @@ p3b <- df %>%
   ggtitle('B')
 
 p3c <- df %>% 
-  filter(species == 'Human' & aggregated_cell_layer == 'L5' & feature == 'width') %>% 
+  filter(species == 'Human' & layer_name == 'L5' & feature == 'width') %>% 
   mutate(value = value*1000) %>% 
   ggplot(aes(x = external_soln, y=value)) +
   geom_boxplot(outlier.shape = NA) + #this does not remove the outliers, it only hides them, so the range calculated for the y-axis will be the same with outliers shown and outliers hidden
@@ -101,7 +109,7 @@ p3c <- df %>%
   ggtitle('C') 
 
 p3d <- df %>%
-  filter(aggregated_cell_layer == 'L5') %>% 
+  filter(layer_name == 'L5') %>% 
   filter(external_soln == 'Synaptic Blockers') %>% 
   filter(feature == 'sag') %>% 
   ggplot(aes(x=species, y=value)) +
@@ -112,7 +120,7 @@ p3d <- df %>%
   ggtitle('D') 
 
 p3d2 <- df %>%
-  filter(aggregated_cell_layer == 'L5') %>% 
+  filter(layer_name == 'L5') %>% 
   filter(external_soln == 'Synaptic Blockers') %>% 
   filter(feature == 'width') %>% 
   mutate(value = value*1000) %>% 
@@ -124,7 +132,7 @@ p3d2 <- df %>%
   ggtitle('D') 
 
 p3e <- df %>% 
-  filter(species == 'Human' & aggregated_cell_layer == 'L5' & feature == 'fi_fit_slope') %>% 
+  filter(species == 'Human' & layer_name == 'L5' & feature == 'fi_fit_slope') %>% 
   ggplot(aes(x = external_soln, y=value)) +
   geom_boxplot(outlier.shape = NA) + #this does not remove the outliers, it only hides them, so the range calculated for the y-axis will be the same with outliers shown and outliers hidden
   geom_point(alpha=0.5, position = position_jitter(width = 0.2)) +
@@ -133,7 +141,7 @@ p3e <- df %>%
   ggtitle('E') 
 
 p3f <- df %>% 
-  filter(external_soln == 'Synaptic Blockers' & aggregated_cell_layer == 'L5' & feature == 'fi_fit_slope') %>% 
+  filter(external_soln == 'Synaptic Blockers' & layer_name == 'L5' & feature == 'fi_fit_slope') %>% 
   ggplot(aes(x = species, y=value)) +
   geom_boxplot(outlier.shape = NA) + #this does not remove the outliers, it only hides them, so the range calculated for the y-axis will be the same with outliers shown and outliers hidden
   geom_point(alpha=0.5, position = position_jitter(width = 0.2)) +
@@ -142,7 +150,7 @@ p3f <- df %>%
   ggtitle('F') 
 
 p3e2 <- df %>% 
-  filter(species == 'Human' & aggregated_cell_layer == 'L5' & feature == 'avg_rate') %>% 
+  filter(species == 'Human' & layer_name == 'L5' & feature == 'avg_rate') %>% 
   ggplot(aes(x = external_soln, y=value)) +
   geom_boxplot(outlier.shape = NA) + #this does not remove the outliers, it only hides them, so the range calculated for the y-axis will be the same with outliers shown and outliers hidden
   geom_point(alpha=0.5, position = position_jitter(width = 0.2)) +
@@ -151,7 +159,7 @@ p3e2 <- df %>%
   ggtitle('E') 
 
 p3f2 <- df %>% 
-  filter(external_soln == 'Synaptic Blockers' & aggregated_cell_layer == 'L5' & feature == 'avg_rate') %>% 
+  filter(external_soln == 'Synaptic Blockers' & layer_name == 'L5' & feature == 'avg_rate') %>% 
   ggplot(aes(x = species, y=value)) +
   geom_boxplot(outlier.shape = NA) + #this does not remove the outliers, it only hides them, so the range calculated for the y-axis will be the same with outliers shown and outliers hidden
   geom_point(alpha=0.5, position = position_jitter(width = 0.2)) +
@@ -166,14 +174,14 @@ fig3 <- (p3a | p3b) / (p3c | p3d)
 fig3 <- (p3a | p3b) /  (p3c | p3d2)  / (p3e2 | p3f2)
 #fig3alt <- (rin_plot | sagratio_plot) / (p1c | p1d)
 #fig3alt2 <- (rin_plot | peakv_plot) / (p1c | p1d)
-ggsave(filename = './results/fig3v2.pdf', plot=fig3, dpi = 300, height = 19, width = 12)
-ggsave(filename = './results/fig3v2.png', plot=fig3, dpi = 300, height = 19, width = 12, bg = 'white')
+ggsave(filename = './results/fig3v2-v3.pdf', plot=fig3, dpi = 300, height = 19, width = 12)
+ggsave(filename = './results/fig3v2-v3.png', plot=fig3, dpi = 300, height = 19, width = 12, bg = 'white')
 
 ########################################################################################################################
 # F3: statistical analyses
 ########################################################################################################################
 test_3a <- df %>% 
-  filter(species == 'Human' & aggregated_cell_layer == 'L5' & feature == 'input_resistance') %>% 
+  filter(species == 'Human' & layer_name == 'L5' & feature == 'input_resistance') %>% 
   select(external_soln, value)
 
 test_3a %>% group_by(external_soln) %>% summarise(M=mean(value), SD=sd(value), n=n())
@@ -182,35 +190,35 @@ t.test(test_3a %>% filter(external_soln == 'Synaptic Blockers') %>% .$value,
        test_3a %>% filter(external_soln == 'aCSF') %>% .$value)
 
 test_3b <- df %>%
-  filter(aggregated_cell_layer == 'L5' & external_soln == 'Synaptic Blockers' & feature == 'input_resistance') %>% 
+  filter(layer_name == 'L5' & external_soln == 'Synaptic Blockers' & feature == 'input_resistance') %>% 
   select(species, value)
 
 t.test(test_3b %>% filter(species == 'Human') %>% .$value, 
        test_3b %>% filter(species == 'Mouse') %>% .$value)
 
 test_3c <- df %>%
-  filter(species == 'Human' & aggregated_cell_layer == 'L5' & feature == 'width') %>% 
+  filter(species == 'Human' & layer_name == 'L5' & feature == 'width') %>% 
   select(external_soln, value)
 
 t.test(test_3c %>% filter(external_soln == 'Synaptic Blockers') %>% .$value, 
        test_3c %>% filter(external_soln == 'aCSF') %>% .$value)
 
 test_3d2 <- df %>%
-  filter(aggregated_cell_layer == 'L5' & external_soln == 'Synaptic Blockers' & feature == 'width') %>% 
+  filter(layer_name == 'L5' & external_soln == 'Synaptic Blockers' & feature == 'width') %>% 
   select(species, value)
 
 t.test(test_3d2 %>% filter(species == 'Human') %>% .$value, 
        test_3d2 %>% filter(species == 'Mouse') %>% .$value)
 
 test_3e2 <- df %>%
-  filter(species == 'Human' & aggregated_cell_layer == 'L5' & feature == 'avg_rate') %>% 
+  filter(species == 'Human' & layer_name == 'L5' & feature == 'avg_rate') %>% 
   select(external_soln, value)
 
 t.test(test_3e2 %>% filter(external_soln == 'Synaptic Blockers') %>% .$value, 
        test_3e2 %>% filter(external_soln == 'aCSF') %>% .$value)
 
 test_3f2 <- df %>%
-  filter(aggregated_cell_layer == 'L5' & external_soln == 'Synaptic Blockers' & feature == 'avg_rate') %>% 
+  filter(layer_name == 'L5' & external_soln == 'Synaptic Blockers' & feature == 'avg_rate') %>% 
   select(species, value)
 
 t.test(test_3f2 %>% filter(species == 'Human') %>% .$value, 
@@ -222,7 +230,7 @@ t.test(test_3f2 %>% filter(species == 'Human') %>% .$value,
 cutting_sol_plot <- df %>% 
   filter(species == 'Human' & feature == 'input_resistance') %>%
   filter(external_soln == 'Synaptic Blockers') %>%
-  filter(aggregated_cell_layer %in% c('L23', 'L5')) %>% 
+  filter(layer_name %in% c('L23', 'L5')) %>% 
   ggplot(aes(x=cutting_solution, y=value)) +
   geom_boxplot(outlier.shape = NA) +
   geom_point(alpha=0.5, position = position_jitter(width = 0.15)) +
@@ -230,7 +238,7 @@ cutting_sol_plot <- df %>%
     comparisons = list(c("NMDG", "Sucrose")),
     map_signif_level = TRUE, textsize = 6, test = 'wilcox.test'
   ) +
-  facet_wrap(~ aggregated_cell_layer) +
+  facet_wrap(~ layer_name) +
   labs(x='', y='Input resistance (MΩ)', ) +
   #theme(axis.title.y = element_text(size = 8)) +
   ggtitle('A')
@@ -238,7 +246,7 @@ cutting_sol_plot <- df %>%
 cutting_sol_plot2 <- df %>% 
   filter(species == 'Human' & feature == 'sag') %>% 
   filter(external_soln == 'Synaptic Blockers') %>%
-  filter(aggregated_cell_layer %in% c('L23', 'L5')) %>% 
+  filter(layer_name %in% c('L23', 'L5')) %>% 
   ggplot(aes(x=cutting_solution, y=value)) +
   geom_boxplot(outlier.shape = NA) +
   geom_point(alpha=0.5, position = position_jitter(width = 0.15)) +
@@ -246,7 +254,7 @@ cutting_sol_plot2 <- df %>%
   #    comparisons = list(c("NMDG", "Sucrose")),
   #    map_signif_level = TRUE, textsize = 6, test = 'wilcox.test'
   #  )  +
-  facet_wrap(~ aggregated_cell_layer) +
+  facet_wrap(~ layer_name) +
   labs(x='', y='Sag ratio') +
   #theme(axis.title.y = element_text(size = 8)) +
   ggtitle('B')
@@ -260,35 +268,35 @@ ggsave(fig4, filename = './results/fig4-layer_comparison-cutting_soln-input_R-sa
 df %>% 
   filter(species == 'Human' & feature == 'input_resistance') %>% 
   filter(external_soln == 'Synaptic Blockers') %>%
-  #filter(aggregated_cell_layer %in% c('L23', 'L5')) %>% 
-  group_by(cutting_solution) %>% #, aggregated_cell_layer
+  #filter(layer_name %in% c('L23', 'L5')) %>% 
+  group_by(cutting_solution) %>% #, layer_name
   summarise(avg = mean(value), sdev = sd(value), n = n())
 
 df %>% 
   filter(species == 'Human' & feature == 'sag') %>% 
   filter(external_soln == 'Synaptic Blockers') %>%
-  #filter(aggregated_cell_layer %in% c('L23', 'L5')) %>% 
-  group_by(cutting_solution) %>%  #, aggregated_cell_layer
+  #filter(layer_name %in% c('L23', 'L5')) %>% 
+  group_by(cutting_solution) %>%  #, layer_name
   summarise(avg = mean(value), sdev = sd(value), n = n())
 
 # ALT F4
 df %>% 
-  mutate(size = case_when(file_id %in% c('18320021', '18o22010') ~ 5, 
+  mutate(size = case_when(file_id %in% c('18320021', '18o22020') ~ 5, 
                           TRUE ~ 1)) %>% 
   select(size)
 
 alt_F4A <- df %>% 
-  mutate(size = case_when(file_id %in% c('18320021', '18o22010') ~ 2, 
+  mutate(size = case_when(file_id %in% c('18320021', '18o22020') ~ 2, 
                           TRUE ~ 1)) %>% 
   filter(species == 'Human' & feature == 'input_resistance') %>%
   filter(external_soln == 'Synaptic Blockers') %>%
-  filter(aggregated_cell_layer %in% c('L23', 'L3C', 'L5')) %>% 
+  filter(layer_name %in% c('L23', 'L3C', 'L5')) %>% 
   ggplot(aes(x=cutting_solution, y=value)) +
   geom_boxplot(outlier.shape = NA) +
-  geom_point(alpha=0.85, position = position_jitter(width = 0.15), aes(colour=aggregated_cell_layer, size=size)) +
+  geom_point(alpha=0.85, position = position_jitter(width = 0.15), aes(colour=layer_name, size=size)) +
   geom_signif(
     comparisons = list(c("NMDG", "Sucrose")),
-    map_signif_level = TRUE, textsize = 6, test = 'wilcox.test'
+    map_signif_level = TRUE, textsize = 6, test = 't.test'
   ) +
   theme(legend.position="none") +
   labs(x='', y='Input resistance (MΩ)', color="") +
@@ -296,17 +304,17 @@ alt_F4A <- df %>%
   ggtitle('A')
 
 alt_F4B <- df %>% 
-  mutate(size = case_when(file_id %in% c('18320021', '18o22010') ~ 2, 
+  mutate(size = case_when(file_id %in% c('18320021', '18o22020') ~ 2, 
                           TRUE ~ 1)) %>% 
   filter(species == 'Human' & feature == 'sag') %>% 
   filter(external_soln == 'Synaptic Blockers') %>%
-  filter(aggregated_cell_layer %in% c('L23', 'L3C', 'L5')) %>% 
+  filter(layer_name %in% c('L23', 'L3C', 'L5')) %>% 
   ggplot(aes(x=cutting_solution, y=value)) +
   geom_boxplot(outlier.shape = NA) +
-  geom_point(alpha=0.85, position = position_jitter(width = 0.15), aes(colour=aggregated_cell_layer, size=size)) +
+  geom_point(alpha=0.85, position = position_jitter(width = 0.15), aes(colour=layer_name, size=size)) +
   geom_signif(
     comparisons = list(c("NMDG", "Sucrose")),
-    map_signif_level = TRUE, textsize = 6, test = 'wilcox.test'
+    map_signif_level = TRUE, textsize = 6, test = 't.test'
   ) +
   labs(x='', y='Sag ratio', color="Layer") +
   #theme(axis.title.y = element_text(size = 8)) +
@@ -325,7 +333,8 @@ test_4a %>% group_by(cutting_solution) %>% summarise(M=mean(value), SD=sd(value)
 
 wilcox.test(test_4a %>% filter(cutting_solution == 'NMDG') %>% .$value, 
             test_4a %>% filter(cutting_solution == 'Sucrose') %>% .$value)
-
+t.test(test_4a %>% filter(cutting_solution == 'NMDG') %>% .$value, 
+       test_4a %>% filter(cutting_solution == 'Sucrose') %>% .$value)
 
 test_4b <- df %>% 
   filter(species == 'Human' & feature == 'sag' & external_soln == 'Synaptic Blockers') %>% 
@@ -333,31 +342,31 @@ test_4b <- df %>%
 
 test_4b %>% group_by(cutting_solution) %>% summarise(M=mean(value), SD=sd(value), n=n())
 
-wilcox.test(test_4b %>% filter(cutting_solution == 'NMDG') %>% .$value, 
-            test_4b %>% filter(cutting_solution == 'Sucrose') %>% .$value)
+t.test(test_4b %>% filter(cutting_solution == 'NMDG') %>% .$value,
+       test_4b %>% filter(cutting_solution == 'Sucrose') %>% .$value)
 
 # ID potential traces to highlight
 # F4A
 df %>% 
   filter(species == 'Human' & external_soln == 'Synaptic Blockers') %>% 
-  filter(aggregated_cell_layer == 'L5') %>% 
+  filter(layer_name == 'L5') %>% 
   filter(cutting_solution == 'NMDG') %>% 
   filter(feature == 'input_resistance' & (value > 100) & (value < 400)) %>% 
   select(file_id, feature, value)
-filter(file_id == '18129004')
+filter(file_id == '18201011')
 
 df %>% 
   filter(species == 'Human' & external_soln == 'Synaptic Blockers') %>% 
-  filter(aggregated_cell_layer == 'L5') %>% 
+  filter(layer_name == 'L5') %>% 
   filter(cutting_solution == 'Sucrose') %>% 
-  filter(feature == 'input_resistance' & (value > 100) & (value < 300)) %>% 
+  filter(feature == 'input_resistance' & (value > 100) & (value < 200)) %>% 
   select(file_id, feature, value)
   filter(file_id == '19228058') # this example seems most comparable to the other with NMDG
 
 # F4B
 df %>% 
   filter(species == 'Human' & external_soln == 'Synaptic Blockers') %>% 
-  filter(aggregated_cell_layer == 'L5') %>% 
+  filter(layer_name == 'L5') %>% 
   filter(cutting_solution == 'NMDG') %>% 
   filter(feature == 'sag' & (value > 0.05) & (value < 0.1)) %>% 
   select(file_id, feature, value)
@@ -365,7 +374,7 @@ df %>%
 
 df %>% 
   filter(species == 'Human' & external_soln == 'Synaptic Blockers') %>% 
-  filter(aggregated_cell_layer == 'L5') %>% 
+  filter(layer_name == 'L5') %>% 
   filter(cutting_solution == 'Sucrose') %>% 
   filter(feature == 'sag' & (value > 0.075) & (value < 0.1)) %>% 
   select(file_id, feature, value)
@@ -375,7 +384,7 @@ df %>%
 #### Attempt #2 at finding good examples, this time looking at L2/3
 df %>% 
   filter(species == 'Human' & external_soln == 'Synaptic Blockers') %>% 
-  filter(aggregated_cell_layer == 'L23') %>% 
+  filter(layer_name == 'L23') %>% 
   filter(cutting_solution == 'NMDG') %>% 
   filter(feature == 'input_resistance' & (value > 200) & (value < 400)) %>% 
   select(file_id, feature, value)
@@ -383,11 +392,19 @@ df %>%
 
 df %>% 
   filter(species == 'Human' & external_soln == 'Synaptic Blockers') %>% 
-  filter(aggregated_cell_layer == 'L23') %>% 
+  filter(layer_name == 'L23') %>% 
   filter(cutting_solution == 'Sucrose') %>% 
-  filter(feature == 'input_resistance' & (value > 130) & (value < 250))
-filter(file_id == '18o22010')
+  filter(feature == 'input_resistance' & (value > 80) & (value < 250)) %>% 
+  select(file_id, value)
+filter(file_id == '18o22001')
 
+
+df %>% 
+  filter(species == 'Human' & external_soln == 'Synaptic Blockers') %>% 
+  filter(layer_name == 'L23') %>% 
+  filter(cutting_solution == 'Sucrose') %>% 
+  filter(feature == 'sag' & (value > 0.07) ) %>% 
+  select(file_id, value)
 
 df %>% 
   filter(file_id %in% c('18426010', '18o22010'))
@@ -406,20 +423,20 @@ data_subset = 'acsf' #'acsf' #'blockers'
 
 if (data_subset == 'blockers') {
   human_subset <- df %>% 
-    filter(species == 'Human' & aggregated_cell_layer != 'Int' & external_soln == 'Synaptic Blockers') %>% 
+    filter(species == 'Human' & layer_name != 'Int' & external_soln == 'Synaptic Blockers') %>% 
     filter(is_epileptogenic == FALSE)
 } else {
   human_subset <- df %>% 
-    filter(species == 'Human' & aggregated_cell_layer != 'Int' & external_soln == 'aCSF') %>% 
+    filter(species == 'Human' & layer_name != 'Int' & external_soln == 'aCSF') %>% 
     filter(is_epileptogenic == FALSE)
 }
 
 human_subset_rin <- human_subset %>% 
-  #filter(aggregated_cell_layer == 'L5') %>% 
+  #filter(layer_name == 'L5') %>% 
   filter(feature == 'input_resistance')
 
 human_subset_sag <- human_subset %>% 
-  #filter(aggregated_cell_layer == 'L5') %>% 
+  #filter(layer_name == 'L5') %>% 
   filter(feature == 'sag')
 #########################################################################################
 # boxplots: sag/rin vs sex
@@ -427,7 +444,7 @@ human_subset_sag <- human_subset %>%
 #p2_text_size = 14
 p5a <- ggplot(human_subset_rin, aes(x=resection_location, y=value)) +
   geom_boxplot(outlier.shape = NA) + #this does not remove the outliers, it only hides them, so the range calculated for the y-axis will be the same with outliers shown and outliers hidden
-  geom_point(alpha=0.85, position = position_jitter(width = 0.2), aes(colour=aggregated_cell_layer)) +
+  geom_point(alpha=0.85, position = position_jitter(width = 0.2), aes(colour=layer_name)) +
   labs(x='', y='Input resistance (MΩ)') +
   theme(legend.position="none") +
   ggtitle('A')
@@ -438,12 +455,12 @@ TukeyHSD(anova)
 kruskal.test(value~resection_location, data = human_subset_rin)
 
 # 2way anova is not appropriate given the lack of of measurements from multiple layers in frontal or parietal cortex samples
-anova_2way <- aov(value~resection_location + aggregated_cell_layer, data = human_subset_rin)
+anova_2way <- aov(value~resection_location + layer_name, data = human_subset_rin)
 summary(anova_2way)
 
 p5b <- ggplot(human_subset_rin, aes(x=sex, y=value)) +
   geom_boxplot(outlier.shape = NA) + #this does not remove the outliers, it only hides them, so the range calculated for the y-axis will be the same with outliers shown and outliers hidden
-  geom_point(alpha=0.85, position = position_jitter(width = 0.2), aes(colour=aggregated_cell_layer)) +
+  geom_point(alpha=0.85, position = position_jitter(width = 0.2), aes(colour=layer_name)) +
   labs(x='', y='') +
   #theme(legend.position="none") +
   ggtitle('B') +
@@ -454,7 +471,7 @@ wilcox.test(human_subset_rin %>% filter(sex == 'Male')  %>% .$value, human_subse
 
 #p5c <- ggplot(human_subset_rin, aes(x=diagnosis, y=value)) +
 #  geom_boxplot(outlier.shape = NA) + #this does not remove the outliers, it only hides them, so the range calculated for the y-axis will be the same with outliers shown and outliers hidden
-#  geom_point(alpha=0.85, position = position_jitter(width = 0.2), aes(colour=aggregated_cell_layer)) +
+#  geom_point(alpha=0.85, position = position_jitter(width = 0.2), aes(colour=layer_name)) +
 #  labs(x='', y='') +
 #  #theme(legend.position="none") +
 #  ggtitle('C')
@@ -464,7 +481,7 @@ wilcox.test(human_subset_rin %>% filter(sex == 'Male')  %>% .$value, human_subse
 #######################################################
 p5d <- ggplot(human_subset_sag, aes(x=resection_location, y=value)) +
   geom_boxplot(outlier.shape = NA) + #this does not remove the outliers, it only hides them, so the range calculated for the y-axis will be the same with outliers shown and outliers hidden
-  geom_point(alpha=0.85, position = position_jitter(width = 0.2), aes(colour=aggregated_cell_layer)) +
+  geom_point(alpha=0.85, position = position_jitter(width = 0.2), aes(colour=layer_name)) +
   labs(x='', y='Sag ratio') +
   theme(legend.position="none") +
   ggtitle('C')
@@ -477,7 +494,7 @@ kruskal.test(value~resection_location, data = human_subset_sag)
 
 p5e <- ggplot(human_subset_sag, aes(x=sex, y=value)) +
   geom_boxplot(outlier.shape = NA) + #this does not remove the outliers, it only hides them, so the range calculated for the y-axis will be the same with outliers shown and outliers hidden
-  geom_point(alpha=0.85, position = position_jitter(width = 0.2), aes(colour=aggregated_cell_layer)) +
+  geom_point(alpha=0.85, position = position_jitter(width = 0.2), aes(colour=layer_name)) +
   labs(x='', y='') +
   theme(legend.position="none") +
   ggtitle('D')
@@ -487,7 +504,7 @@ wilcox.test(human_subset_sag %>% filter(sex == 'Male')  %>% .$value, human_subse
 
 #p5f <- ggplot(human_subset_sag, aes(x=diagnosis, y=value)) +
 #  geom_boxplot(outlier.shape = NA) + #this does not remove the outliers, it only hides them, so the range calculated for the y-axis will be the same with outliers shown and outliers hidden
-#  geom_point(alpha=0.85, position = position_jitter(width = 0.2), aes(colour=aggregated_cell_layer)) +
+#  geom_point(alpha=0.85, position = position_jitter(width = 0.2), aes(colour=layer_name)) +
 #  labs(x='', y='') +
 #  theme(legend.position="none") +
 #  ggtitle('F')
@@ -583,24 +600,24 @@ ggsave(fig6, filename = paste0(fig6_name, '.png'), dpi = 300, height=12, width =
 
 
 rin_l5_human_subset <- df %>% 
-  filter(species == 'Human' & feature == 'input_resistance' & aggregated_cell_layer == 'L5')
+  filter(species == 'Human' & feature == 'input_resistance' & layer_name == 'L5')
 
 peakv_l5_human_subset <- df %>% 
-  filter(species == 'Human' & feature == 'peak_v' & aggregated_cell_layer == 'L5')
+  filter(species == 'Human' & feature == 'peak_v' & layer_name == 'L5')
 
 acsf_peakv <- peakv_l5_human_subset %>% filter(external_soln == 'aCSF') %>% select(value) %>% .$value
 blockers_peakv <- peakv_l5_human_subset %>% filter(external_soln == 'Synaptic Blockers') %>% select(value) %>% .$value
 t.test(acsf_peakv, blockers_peakv)
 
 width_l5_human_subset <- df %>% 
-  filter(species == 'Human' & feature == 'width' & aggregated_cell_layer == 'L5')
+  filter(species == 'Human' & feature == 'width' & layer_name == 'L5')
 
 acsf_width <- width_l5_human_subset %>% filter(external_soln == 'aCSF') %>% select(value) %>% .$value
 blockers_width <- width_l5_human_subset %>% filter(external_soln == 'Synaptic Blockers') %>% select(value) %>% .$value
 t.test(acsf_width, blockers_width)
 
 sagratio_l5_human_subset <- df %>% 
-  filter(species == 'Human' & feature == 'sag' & aggregated_cell_layer == 'L5')
+  filter(species == 'Human' & feature == 'sag' & layer_name == 'L5')
 
 acsf_sagratio <- sagratio_l5_human_subset %>% filter(external_soln == 'aCSF') %>% select(value) %>% .$value
 blockers_sagratio <- sagratio_l5_human_subset %>% filter(external_soln == 'Synaptic Blockers') %>% select(value) %>% .$value
@@ -642,22 +659,22 @@ sagratio_plot <- ggplot(sagratio_l5_human_subset, aes(x = external_soln, y=value
 
 
 acsf_l5_sag <- df %>%
-  filter(aggregated_cell_layer == 'L5') %>% 
+  filter(layer_name == 'L5') %>% 
   filter(external_soln == 'aCSF') %>% 
   filter(feature == 'sag')
 
 blockers_l5_sag <- df %>%
-  filter(aggregated_cell_layer == 'L5') %>% 
+  filter(layer_name == 'L5') %>% 
   filter(external_soln == 'Synaptic Blockers') %>% 
   filter(feature == 'sag')
 
 acsf_l5_rin <- df %>%
-  filter(aggregated_cell_layer == 'L5') %>% 
+  filter(layer_name == 'L5') %>% 
   filter(external_soln == 'aCSF') %>% 
   filter(feature == 'input_resistance')
 
 blockers_l5_rin <- df %>%
-  filter(aggregated_cell_layer == 'L5') %>% 
+  filter(layer_name == 'L5') %>% 
   filter(external_soln == 'Synaptic Blockers') %>% 
   filter(feature == 'input_resistance')
 
