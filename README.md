@@ -1,5 +1,10 @@
 The main objective of this project is to convert existing whole-cell patch clamp recordings in ABF format into the open NWB standard and publish these openly on the DANDI archive. This repository will be used to raise issues, track progress and ensure the process is reproducible.
 
+Datasets were published to DANDI here:
+[UHN whole-cell patch-clamp excitability recordings from human cortical neurons](https://dandiarchive.org/dandiset/000293/0.220708.1652)
+[UHN whole-cell patch-clamp excitability recordings from mouse cortical neurons](https://dandiarchive.org/dandiset/000292/0.220708.1652)
+
+
 ## Setup
 To setup the conda environment after cloning this repo:
 ```
